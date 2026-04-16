@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#035c34">
+  <meta name="description" content="UniAfrica - The data-light mobile hub connecting students across Sub-Saharan Africa.">
+  <title>UniAfrica</title>
+  
+  <link rel="manifest" href="manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Global Navigation -->
+  <header class="global-nav">
+    <div class="nav-container">
+      <div class="logo" data-route="landing">
+        <span class="brand">UniAfrica</span>
+      </div>
+      
+      <nav class="nav-links">
+        <button class="nav-item tab" data-route="hub">Hub</button>
+        <button class="nav-item tab" data-route="explore">Explore</button>
+        <button class="nav-item tab" data-route="vault">Vault</button>
+      </nav>
+      
+      <div class="nav-actions">
+        <button class="icon-btn" aria-label="Notifications">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+        </button>
+        <button class="icon-btn profile-btn" aria-label="Profile">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main App Container -->
+  <main id="app-root"></main>
+
+  <script src="app.js"></script>
+</body>
+</html>
